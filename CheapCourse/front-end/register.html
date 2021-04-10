@@ -1,0 +1,44 @@
+<script src="../front-end/js/register.js" defer></script>
+<main>
+  <form>
+    <div id="panel-register">
+      <h2 class="text-register">Register</h2><br>
+      <div id="message" class="alert">
+      </div>
+      <div id="user-group" class="">
+        <div class="login-inline">
+          <div class="login-icon">
+            <img src="../front-end/img/user.svg" alt="user" class="user-icon">
+          </div>
+          <input type="text" id="username" class="" name="name" placeholder="  username"><br>
+        </div>
+      </div>
+      <div id="email-group" class="">
+        <div class="login-inline">
+          <div class="login-icon">
+            <img src="../front-end/img/mail.svg" alt="user" class="user-icon">
+          </div>
+          <input type="email" id="email" class="" name="email" placeholder="  e-mail"><br>
+        </div>
+      </div>
+      <div id="pass-group" class="">
+        <div class="login-inline">
+          <div class="login-icon">
+            <img src="../front-end/img/key.svg" alt="key" class="user-icon">
+          </div>
+          <input type="password" id="password" class="" name="password" placeholder="  password"><br>
+        </div>
+      </div>
+      <div id="pass2-group" class="">
+        <div class="login-inline">
+          <div class="login-icon">
+            <img src="../front-end/img/key.svg" alt="key" class="user-icon">
+          </div>
+          <input type="password" id="confirm" class="" name="password2" placeholder="  confirm password"><br>
+        </div>
+      </div>
+      <p class="question-2">you have account?<a href="login.php"> Login!</a></p>
+      <button type="button" onclick="sendDataToServer()">Register</button>
+    </div>
+  </form>
+</main>

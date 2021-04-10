@@ -1,0 +1,30 @@
+<script src="../front-end/js/login.js" defer></script>
+<script src="../front-end/js/home.js" defer></script>
+<main>
+  <form id="login">
+    <div class="panel-login">
+      <h2 class="text-login">Login</h2>
+      <div id="message" class="alert">
+      </div>
+      <div id="group-user" class="">
+        <div class="login-inline">
+          <div class="login-icon">
+            <img src="../front-end/img/user.svg" alt="user" class="user-icon">
+          </div>
+          <input type="text" class="" id="userName" name="name" placeholder="  username">
+        </div>
+      </div>
+      <div id="group-pass" class="">
+        <div class="login-inline">
+          <div class="login-icon">
+            <img src="../front-end/img/key.svg" alt="key" class="user-icon">
+          </div>
+          <input type="password" class="" id="userPassword" name="password" placeholder="  password"><br>
+        </div>
+      </div>
+      <button type="button" onclick="sendDataToServer()">Login</button>
+      <p class="question-1">Don't have an account?<a href="register.php"> Sign up!</a></p>
+      <a href="recoverypass.php" class="question"><u>Forgot your password?</u></a><br><br>
+    </div>
+  </form>
+</main>
